@@ -1,0 +1,111 @@
+*{
+  font-family: 'Roboto Slab', serif;
+  list-style: none;
+}
+
+body{
+  background-color: lightgray;
+}
+
+.navbar{
+  border-radius: 0px;
+}
+
+main > .container{
+  background-color: white;
+  padding-top: 15px;
+}
+
+.separated{
+  margin-bottom: 50px;
+}
+
+#blogSection .content{
+  display: flex;
+  flex-direction: column;
+}
+
+.title h4{
+  padding-left: 15px;
+}
+
+#blogSection .content img{
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+
+#albumSection .section.album{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#albumSection p, .section.album p{
+  font-size: 12px;
+}
+
+.section.blog{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 80px;
+}
+.section.blog .row{
+  display: flex;
+}
+
+.section.content{
+  margin-bottom: 20px;
+}
+
+.section.blog img{
+  width: 100%;
+  object-fit: cover;
+  height: 365px;
+}
+
+.section.album li{
+  cursor: pointer;
+}
+
+.album-single{
+  min-height: 500px;
+}
+
+a.mainImg{
+  display: flex;
+  flex-direction: column;
+}
+
+a.mainImg img{
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.section.album p {
+  padding-left: 0px;
+}
+
+.section.album ul{
+  padding-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section.album ul li{
+  flex-basis: 23%;
+  flex-grow: 0;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: flex;
+}
+.section.album ul li img{
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+
+section .content, .section.content a{
+  color:rgba(0,0,0,0.6);
+}
